@@ -1,0 +1,74 @@
+header{
+    text-align: center;
+    background-color: rgba(27, 27, 50, 0.95);
+    padding: 20px;
+    border-radius: 8px;
+    color:white;
+
+    font-family: Arial; 
+    width: 480px; 
+    padding: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-image:url('ninja-cat-figure-avatar-face_icon-icons.com_59284.png');
+    background-size:auto;
+    font-family: Arial;    
+}
+
+#survey-form{
+    background-color:rgba(27, 27, 50, 0.95);
+    color:white;
+    padding: 60px;
+    border-radius: 8px;
+    max-width: 480px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+label,p{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#number, #name , #email{
+    margin-bottom: 20px;
+
+}
+#number{
+    font-size: 14px;
+    padding: 8px; 
+    border-radius: 4px; 
+}
+
+#email,#name ,#dropdown,#most-like{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    justify-items: center;
+    min-width: 50px;   
+    width:100% ;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+textarea{
+    width:98% ;
+    height: 60px;
+
+
+}
+
+
+button{
+    color:white;
+    background-color: rgb(11, 151, 11);
+    width: 100%;
+    height: 30px;
+    border-color: rgb(11, 151, 11);
+}   
